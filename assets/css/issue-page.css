@@ -1,0 +1,72 @@
+.create-project {
+    width: 50%;
+    margin: 10px auto;
+    padding-left: 10px;
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+.create-project .create-box .user-box {
+    position: relative;
+    width: 90%;
+}
+.create-project .create-box .user-box input {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #000;
+    margin: 15px auto;
+    border: none;
+    border-bottom: 1px solid #224957;
+    outline: none;
+    background: transparent; 
+}
+.create-project .create-box h2 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #224957;
+}
+.create-project .create-box .user-box input:focus ~ label, .create-project .create-box .user-box input:valid ~ label {
+    top: -10px;
+    left: 0;
+    color: #224957;
+    font-size: 12px; 
+}
+.create-project .create-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 10px;
+    font-size: 16px;
+    color: #224957;
+    pointer-events: none;
+    transition: ease-in-out 0.5s; 
+}
+.create-project .create-box .user-box select {
+    width: 100%;
+    outline: none;
+    background: transparent;
+    color: #224957;
+    border: 1px solid #224957;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.create-project .create-box .user-box button {
+    position: absolute;
+    left: 0px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0.75rem 0.75rem;
+    transition: all .3s ease-in-out;
+    background: #224957;
+    border: 1px solid #224957;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.create-project .create-box .user-box button:hover {
+    color: #224957;
+    background: #fff;
+    cursor: pointer;
+}

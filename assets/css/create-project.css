@@ -1,0 +1,78 @@
+.createProject .create-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+    border-radius: 10px; 
+  }
+  .createProject .create-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #224957;
+    text-align: center; 
+  }
+  .createProject .create-box .user-box {
+    position: relative; 
+  }
+  .createProject .create-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #224957;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #224957;
+    outline: none;
+    background: transparent; 
+  }
+  .createProject .create-box .user-box input:focus ~ label, .createProject .create-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #224957;
+    font-size: 12px; 
+  }
+  .createProject .create-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #224957;
+    pointer-events: none;
+    transition: .5s; 
+  }
+  .createProject .create-box .user-box .selectbox {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #224957;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent; 
+  }
+  .createProject .create-box .user-box .selectbox option {
+    color: #224957; 
+  }
+  .createProject .create-box input[type="submit"] {
+    color: #fff;
+    font-size: 18px;
+    padding: 0.75rem 0;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    background: #224957;
+    border: 1px solid #224957;
+    border-radius: 6px;
+  }
+  .createProject .create-box input[type="submit"]:hover {
+    color: #224957;
+    background: #fff;
+    cursor: pointer;
+  }
+  

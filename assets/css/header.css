@@ -1,0 +1,35 @@
+header .heading {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  }
+  header .heading h1 {
+    position: absolute;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 600; 
+    text-align: center;
+    width: 70;
+    padding: 10px;
+    color: #224957;
+  }
+  header .heading a {
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0.75rem 0.75rem;
+    transition: all .3s ease-in-out;
+    background: #224957;
+    border: 1px solid #224957;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  header .heading a:hover {
+    color: #224957;
+    background: #fff;
+    cursor: pointer;
+  }
+  

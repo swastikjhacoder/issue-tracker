@@ -1,0 +1,237 @@
+.show-data {
+  width: 100%;
+  margin: 0px auto;
+  padding-left: 10px;
+  overflow-y: scroll;
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+.show-data::-webkit-scrollbar {
+    width: 10px;
+}
+.show-data::-webkit-scrollbar-thumb {
+    background: #f0f0f0;
+    border-radius: 2rem;
+}
+.show-data .report-issue {
+  float: right;
+  padding: 15px;
+  width: 200px;
+  display: inline; 
+}
+.show-data .report-issue a {
+  color: #fff;
+  font-size: 16px;
+  padding: 0.4rem 0.4rem;
+  transition: all .3s ease-in-out;
+  background: #224957;
+  border: 1px solid #224957;
+  border-radius: 6px;
+  text-decoration: none;
+  align-items: center;
+}
+.show-data .report-issue a:hover {
+  color: #224957;
+  background: #fff;
+  cursor: pointer;
+}
+.show-data .project-data {
+  width: 100%;
+  display: inline;
+  margin: 0;
+}
+.show-data .project-data h2 {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #224957;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.show-data .project-data table {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #224957;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.show-data .project-data table td:first-child {
+  font-size: 16px;
+}
+.show-data .no-bugs {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.show-data .no-bugs h1 {
+  color: #224957;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.show-data .section {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10;
+}
+.show-data .section .search-section {
+  width: 100%; 
+}
+.show-data .section .search-section .create-box {
+  width: 100%;
+  height: 100%;
+  background: #224957;
+  box-sizing: border-box; 
+}
+.show-data .section .search-section .create-box .user-box {
+  position: relative;
+  padding: 0px 10px; 
+}
+
+.show-data .section .search-section .create-box .user-box .selectbox {
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent; 
+}
+.show-data .section .search-section .create-box .user-box .selectbox option {
+  color: black; 
+}
+.show-data .section .search-section .create-box input[type="submit"] {
+  position: relative;
+  color: #224957;
+  font-size: 16px;
+  padding: 0.4rem 0.4rem;
+  transition: all .3s ease-in-out;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  align-items: center;
+  margin-left: 420px;
+  letter-spacing: 1px;
+}
+.show-data  .section .search-section .create-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #7064e5;
+  border: 1px solid #7064e5;
+  color: #fff;
+}
+.show-data .section .show-issue {
+  width: 100%;
+  height: 100%; 
+}
+.show-data .section .show-issue table th {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #224957;
+  color: white; 
+  padding: 10px 38px;
+}
+.show-data .section .show-issue table td {
+  text-transform: capitalize;
+  color: #224957;
+  padding: 10px 40px;
+}
+
+.filter-data {
+  width: 100%; 
+}
+.filter-data h1 {
+  text-align: center;
+  color: #224957;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px; 
+}
+.filter-data table {
+  margin: auto;
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  margin-top: 20px;
+}
+.filter-data table th {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  background-color: #224957;
+  color: #fff; 
+}
+.filter-data table th, .filter-data table td {
+  padding: 10px 70px;
+}
+.filter-data table td {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize; 
+}
+.filter-data table td button {
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+  padding: 0.4rem 0.4rem;
+  transition: all .3s ease-in-out;
+  background: #224957;
+  border: 1px solid #224957;
+  border-radius: 6px;
+  text-decoration: none;
+  align-items: center;
+  letter-spacing: 1px;
+}
+.filter-data table td button:hover {
+  cursor: pointer;
+  background: #7064e5;
+  border: 1px solid #7064e5;
+  color: #fff;
+}
+
+
+.search-box {
+  margin: 1.2rem 0;
+  display: flex;
+  align-items: stretch;
+}
+.search-control,
+.search-btn {
+    width: 100%;
+}
+.search-control {
+    height: 55px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    outline: 0;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.search-control::placeholder {
+    color: #fff;
+}
+.search-btn{
+    width: 55px;
+    height: 55px;
+    font-size: 16px;
+    background: #fff;
+    color: #224957;
+    border: none;
+    transition: all 0.4s linear;
+}
+.search-btn:hover {
+    background: #7064e5;
+    color: #fff;
+    cursor: pointer;
+}

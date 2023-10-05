@@ -1,0 +1,30 @@
+{
+  "name": "issue-tracker",
+  "version": "1.0.0",
+  "description": "Issue tracker app using nodejs and mongodb",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swastikjhacoder/issue-tracker.git"
+  },
+  "author": "Swastik Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swastikjhacoder/issue-tracker/issues"
+  },
+  "homepage": "https://github.com/swastikjhacoder/issue-tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.9.1",
+    "nodemon": "^3.0.1"
+  }
+}

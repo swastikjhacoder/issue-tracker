@@ -1,0 +1,25 @@
+<!-- main page or home page -->
+<div class="main-page">
+    <h1>Project Details</h1>
+    <div class="table">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Author Name</th>
+                    <th>Project Description</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <% for(i of project){ %>
+                <tr>
+                    <td><%= i.projectname%></td>
+                    <td><%= i.projectauthor%></td>
+                    <td><%= i.projectdescription%></td>
+                    <td class="show-issue"><a href="/project/issue?projectid=<%=i.id%>"><i class='bx bx-show'></i> Show Issue</a></td>
+                </tr>
+            <% } %> 
+        </table>
+    </div>
+</div>
+            
